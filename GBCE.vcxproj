@@ -73,11 +73,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cpu.cpp" />
+    <ClCompile Include="Ecran.cpp" />
     <ClCompile Include="GBCE.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="SDL2-2.0.3\lib\x86\SDL2.lib" />
     <Library Include="SDL2-2.0.3\lib\x86\SDL2main.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cpu.h" />
+    <ClInclude Include="Ecran.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
